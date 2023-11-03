@@ -1,0 +1,33 @@
+/* HEADER */
+ 
+.admin-button {
+    display: flex;
+    color:black;
+    height: auto;
+
+
+ }
+ .admin-button:hover {
+    color: #DC9F96;
+
+
+ }
+
+ #ast-hf-menu-1 {
+    display:flex;
+    align-items: center;
+    size: 19px;
+ }
+ #site-title {
+    size: 14px;
+ }
+
+.imagecolone {
+    display: flex;
+    width: 20px;
+}
+.test {
+    display: flex !important;
+    flex-direction: row !important;
+    background-color: aqua;
+}
