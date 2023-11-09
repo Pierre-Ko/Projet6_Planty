@@ -21,13 +21,37 @@
  #site-title {
     size: 14px;
  }
+/* Accueil*/
+
+
+.avisclient {
+    display: flex;
+    justify-content:space-around;
+    max-width: auto;
+    height: 638px;
+}
 
 .imagecolone {
     display: flex;
-    width: 20px;
+    
+    
 }
-.test {
+
+.sectionavis {
+    width: 343px;
+    height: 139px;
     display: flex !important;
     flex-direction: row !important;
-    background-color: aqua;
+}
+/*Nous rencontrer*/
+
+.wpforms-submit-container {
+    display: flex;
+    justify-content: center !important;
+}
+.bouton {
+    padding-left: 72.5px !important;
+    padding-right: 72.5px !important;
+    padding-top: 9px !important;
+    padding-bottom: 9px !important;
 }
