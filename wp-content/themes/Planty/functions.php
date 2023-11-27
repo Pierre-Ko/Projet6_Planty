@@ -12,7 +12,7 @@ add_action('after_setup_theme', 'register_menu_for_child_theme');
 
 function display_button_for_admin($items, $args) {
     if ($args->theme_location === 'primary') {
-        if (current_user_can('administrator')) {
+        if ( is_user_logged_in() ) { 
             $items .= '<a href="http://localhost/Projet6_Planty/Projet6_Planty/wp-admin/index.php" class="admin-button">Admin</a>';
 
         }
@@ -21,7 +21,7 @@ function display_button_for_admin($items, $args) {
     if ($args->theme_location==='footer_menu'){
         return $items;
     }
-
+   
 }
 add_action('wp_nav_menu_items', 'display_button_for_admin', 10, 2);
 ?>
