@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Astra package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-10-23 20:22:23+0000\n"
+"PO-Revision-Date: 2023-11-29 08:31:21+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -185,9 +185,18 @@ msgstr "Rechercher…"
 msgid "Search..."
 msgstr "Recherche…"
 
-#: inc/core/class-astra-enqueue-scripts.php:422
+#: inc/core/class-astra-enqueue-scripts.php:428
 msgid "No results found"
 msgstr "Aucun résultat"
+
+#: admin/includes/class-astra-menu.php:539
+#: admin/includes/class-astra-theme-builder-free.php:81
+#: admin/includes/class-astra-theme-builder-free.php:133
+#: admin/includes/class-astra-theme-builder-free.php:134
+#: admin/assets/build/dashboard-app.js:1
+#: admin/assets/theme-builder/build/index.js:1
+msgid "Site Builder"
+msgstr "Constructeur de site"
 
 #: inc/customizer/configurations/builder/base/class-astra-social-icon-component-configs.php:159
 msgid "Enable Brand Color On Hover"
@@ -416,10 +425,12 @@ msgid "Scroll to Top"
 msgstr "Retour en haut"
 
 #: inc/modules/posts-structures/customizer/class-astra-posts-structures-configs.php:134
+#: admin/assets/theme-builder/build/index.js:1
 msgid "Single"
 msgstr "Publication"
 
 #: inc/modules/posts-structures/customizer/class-astra-posts-structures-configs.php:125
+#: admin/assets/theme-builder/build/index.js:1
 msgid "Archive"
 msgstr "Archives"
 
@@ -752,6 +763,7 @@ msgid "Installing"
 msgstr "Installation…"
 
 #: admin/includes/class-astra-menu.php:174
+#: admin/assets/theme-builder/build/index.js:1
 msgid "Dashboard"
 msgstr "Tableau de bord"
 
@@ -1070,63 +1082,63 @@ msgstr "Structure de la barre d’outils de la boutique"
 msgid "More shop design layouts"
 msgstr "Plus de mises en page de boutique"
 
-#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:153
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:175
 msgid "Encourage last-minute purchases with extra conversion options at checkout"
 msgstr "Encouragez les achats de dernière minute avec des options de conversion supplémentaires à la commande"
 
-#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:147
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:169
 msgid "Summary, Payment background"
 msgstr "Arrière-plan de résumé et de paiement"
 
-#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:144
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:166
 msgid "Text form options"
 msgstr "Options des textes de formulaires"
 
-#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:141
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:163
 msgid "Persistent checkout form data"
 msgstr "Données de formulaire de commande persistentes"
 
-#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:138
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:160
 msgid "Distraction free checkout"
 msgstr "Commande sans distraction"
 
-#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:135
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:157
 msgid "Order note, Coupon field control"
 msgstr "Contrôle de la note de commande et du champ de code promo"
 
-#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:132
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:154
 msgid "Two-step checkout"
 msgstr "Commande en 2 étapes"
 
-#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:129
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:151
 msgid "Sticky order review"
 msgstr "Résumé de commande épinglé"
 
-#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:126
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:148
 msgid "Modern order received layout"
 msgstr "Mise en page moderne de commande reçue"
 
-#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:123
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:145
 msgid "Multi-column layouts"
 msgstr "Mises en page multi-colonnes"
 
-#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:120
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:142
 msgid "Modern layout"
 msgstr "Mise en page moderne"
 
-#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:108
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:130
 msgid "Convert more, earn more with extensive cart conversion features"
 msgstr "Convertissez plus et gagnez plus avec des fonctionnalités complètes de conversion panier"
 
-#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:102
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:124
 msgid "Real-time quantity updater"
 msgstr "Ajustement des quantités en temps réel"
 
-#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:99
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:121
 msgid "Sticky cart totals"
 msgstr "Totaux de panier épinglés"
 
-#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:96
+#: inc/compatibility/woocommerce/customizer/sections/layout/class-astra-woo-shop-cart-layout-configs.php:118
 msgid "Modern cart layout"
 msgstr "Mise en page moderne de panier"
 
@@ -1725,39 +1737,39 @@ msgstr "Palette globale"
 msgid "Button Presets"
 msgstr "Pré-réglages de boutons"
 
-#: inc/class-astra-global-palette.php:219
+#: inc/class-astra-global-palette.php:215
 msgid "Color  9"
 msgstr "Couleur 9"
 
-#: inc/class-astra-global-palette.php:218
+#: inc/class-astra-global-palette.php:214
 msgid "Color  8"
 msgstr "Couleur 8"
 
-#: inc/class-astra-global-palette.php:217
+#: inc/class-astra-global-palette.php:213
 msgid "Color  7"
 msgstr "Couleur 7"
 
-#: inc/class-astra-global-palette.php:216
+#: inc/class-astra-global-palette.php:212
 msgid "Color  6"
 msgstr "Couleur 6"
 
-#: inc/class-astra-global-palette.php:215
+#: inc/class-astra-global-palette.php:211
 msgid "Color  5"
 msgstr "Couleur 5"
 
-#: inc/class-astra-global-palette.php:214
+#: inc/class-astra-global-palette.php:210
 msgid "Color  4"
 msgstr "Couleur 4"
 
-#: inc/class-astra-global-palette.php:213
+#: inc/class-astra-global-palette.php:209
 msgid "Color  3"
 msgstr "Couleur 3"
 
-#: inc/class-astra-global-palette.php:212
+#: inc/class-astra-global-palette.php:208
 msgid "Color  2"
 msgstr "Couleur 2"
 
-#: inc/class-astra-global-palette.php:211
+#: inc/class-astra-global-palette.php:207
 msgid "Color  1"
 msgstr "Couleur 1"
 
@@ -2237,16 +2249,16 @@ msgstr "Réduire en lignes"
 msgid "Equal Width Columns"
 msgstr "Colonnes de largeur égale"
 
-#: inc/core/builder/class-astra-builder-options.php:1220
+#: inc/core/builder/class-astra-builder-options.php:1222
 msgid "My Account"
 msgstr "Mon compte"
 
-#: inc/core/builder/class-astra-builder-options.php:1219
+#: inc/core/builder/class-astra-builder-options.php:1221
 msgid "Log In"
 msgstr "Connexion"
 
-#: inc/core/builder/class-astra-builder-options.php:1529
-#: inc/core/builder/class-astra-builder-options.php:1568
+#: inc/core/builder/class-astra-builder-options.php:1531
+#: inc/core/builder/class-astra-builder-options.php:1570
 msgid "Insert HTML text here."
 msgstr "Insérez le texte HTML ici."
 
@@ -3462,8 +3474,8 @@ msgstr "Options"
 #. translators: %s Index
 #: admin/includes/class-astra-menu.php:320
 #: inc/compatibility/edd/customizer/sections/layout/class-astra-edd-archive-layout-configs.php:154
-#: inc/core/builder/class-astra-builder-options.php:1297
-#: inc/core/builder/class-astra-builder-options.php:1409
+#: inc/core/builder/class-astra-builder-options.php:1299
+#: inc/core/builder/class-astra-builder-options.php:1411
 #: inc/core/class-astra-theme-options.php:345
 #: inc/customizer/configurations/builder/base/class-astra-button-component-configs.php:67
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:151
@@ -4077,7 +4089,6 @@ msgstr "Ajoutez du contenu de manière conditionnelle grâces aux points d’acc
 #: admin/includes/class-astra-menu.php:153
 #: admin/includes/class-astra-menu.php:154
 #: admin/includes/class-astra-menu.php:539
-#: admin/assets/build/dashboard-app.js:1
 msgid "Custom Layouts"
 msgstr "Mises en page personnalisées"
 
@@ -4881,6 +4892,7 @@ msgstr "Texte/HTML"
 #: inc/customizer/configurations/builder/header/class-astra-header-search-component-configs.php:80
 #: inc/customizer/configurations/layout/class-astra-header-layout-configs.php:150
 #: inc/markup-extras.php:746 searchform.php:30 searchform.php:36
+#: admin/assets/build/dashboard-app.js:1
 msgid "Search"
 msgstr "Rechercher"
 
@@ -5210,12 +5222,13 @@ msgid "Blog / Archive"
 msgstr "Blog / Archive"
 
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:150
+#: admin/assets/theme-builder/build/index.js:1
 msgid "Footer"
 msgstr "Pied de page"
 
 #: inc/addons/transparent-header/classes/class-astra-transparent-header-panels-and-sections.php:57
 #: inc/customizer/class-astra-customizer-register-sections-panels.php:83
-#: inc/widgets.php:106
+#: inc/widgets.php:106 admin/assets/theme-builder/build/index.js:1
 msgid "Header"
 msgstr "En-tête"
 
