@@ -21,10 +21,10 @@
  #ast-hf-menu-1 {
     display:flex;
     align-items: center;
-    size: 19px;
+    font-size: 19px;
  }
  #site-title {
-    size: 14px;
+    font-size: 14px;
  }
 /* Accueil*/
 
@@ -35,7 +35,6 @@
 .avisclient {
     display: flex;
     justify-content:space-around;
-    max-width: auto;
     height: 638px;
 }
 
@@ -123,7 +122,6 @@ label {
 }
 .titlcom {
     color: white;
-    font: optional;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
